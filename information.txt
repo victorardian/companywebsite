@@ -1,5 +1,5 @@
 name: force sport
-slogan: force yourself, sport effectively.
+slogan: a force to sport with.
 logo: placeholder copilot
 
 colors: {
