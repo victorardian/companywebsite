@@ -1,0 +1,3 @@
+name: force sport
+slogan: force yourself, sport effectively.
+logo: placeholder copilot
