@@ -5,7 +5,8 @@ logo: placeholder copilot
 colors: {
     1: #000000,
     2: #ffffff,
-    3: #57bf0d
+    3: #57bf0d,
+    4: #408a0c
 }
 
 fonts: {
