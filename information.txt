@@ -1,3 +1,15 @@
 name: force sport
 slogan: force yourself, sport effectively.
 logo: placeholder copilot
+
+colors: {
+    1: #000000,
+    2: #ffffff,
+    3: #57bf0d
+}
+
+fonts: {
+    BBHBogle
+}
+
+mood: stylish shopping cheaply
