@@ -1,0 +1,126 @@
+@font-face {
+    font-family: BBH;
+    src: url(/fonts/BBHBogle-Regular.ttf);
+}
+
+* {
+    box-sizing: border-box;
+    font-family: BBH;
+    text-decoration: none;
+    color: black;
+    overflow-x: hidden;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.brand {
+    background-color: #57bf0d;
+    height: 3dvh;
+    width: 100dvw;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    height: 5dvh;
+    width: 100dvw;
+    border-bottom: 2px solid black;
+}
+
+.mainlinks {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100%;
+    max-width: 90%;
+    width: 100%;
+}
+
+.essentials {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100%;
+    max-width: 10%;
+    width: 100%;
+}
+
+.title {
+    width: 33.3%;
+    text-align: left;
+}
+
+.goal {
+    width: 33.3%;
+}
+
+.copyright {
+    width: 33.3%;
+    text-align: right;
+}
+
+.main {
+    width: 100dvw;
+    height: 92dvh;
+    display: flex;
+}
+
+.featuredshoeimagecontainer {
+    background-image: url(/images/featuredshoe.png);
+    background-position: center;
+    background-size: 75%;
+    background-repeat: no-repeat;
+    width: 55dvw;
+    height: 60dvh;
+    border-bottom: 2px solid black;
+    border-right: 2px solid black;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+
+    p {
+        margin: 0;
+        padding-bottom: 1dvw;
+        padding-left: 1dvw;
+        color: gray;
+    }
+}
+
+.featuredprice {
+    width: 45dvw;
+    height: 60dvh;
+    border-bottom: 2px solid black;
+    display: flex;
+    justify-content: center;
+}
+
+.featuredtext {
+    text-align: left;
+    border-bottom: 2px solid gray;
+    max-width: 90%;
+    width: 100%;
+    max-height: 22.5%;
+    height: 100%;
+
+    h1 {
+        margin: 0;
+        padding-top: 1dvw;
+        font-size: 3dvw;
+    }
+    p {
+        margin: 0;
+        color: gray;
+    }
+}
