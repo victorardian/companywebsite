@@ -45,6 +45,7 @@ ul {
     height: 100%;
     max-width: 90%;
     width: 100%;
+    
 }
 
 .essentials {
@@ -133,9 +134,13 @@ ul {
     width: 100%;
     display: flex;
     align-items: center;
-    justify-content: flex-start;
+    justify-content: space-between;
     border-bottom: 2px solid gray;
     font-size: 1.5dvw;
+
+    p {
+        color: gray;
+    }
 }
 
 .aligner {
@@ -274,4 +279,27 @@ ul {
     display: flex;
     flex-direction: column;
     border: 2px solid black;
+}
+
+.promotionsdropdown {
+    position: relative;
+}
+
+.prodrcontent {
+    display: none;
+    position: absolute;
+    top: 100%;
+    text-align: center;
+    width: 10dvw;
+    height: auto;
+}
+
+.promotionsdropdown:hover .prodrcontent {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+}
+
+.generalimage {
+    width: 2dvw;
 }
